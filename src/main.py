@@ -2,7 +2,7 @@ from SpotifyWrapper import SpotifyWrapper
 from ytdlpWrapper import ytdlpWrapper
 
 with open("token.txt") as f:
-    token =f.read().splitlines()[0]
+    token = f.read().splitlines()[0]
 
 spotifyWrapper = SpotifyWrapper(token)
 ytdlpWrapper = ytdlpWrapper()
